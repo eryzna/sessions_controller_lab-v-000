@@ -8,6 +8,7 @@ class SessionsController < ApplicationController
       redirect_to '/login'
     else
       redirect_to '/'
+    end
   end
 
   def destroy
