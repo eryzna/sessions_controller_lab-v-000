@@ -11,7 +11,6 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    is
     session.delete :username
   end
 
